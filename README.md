@@ -11,3 +11,10 @@ Primer dia:
 - **advent04**: El més fàcil de tots
 - **advent05**: L'enunciat m'ha semblat tant enrevessat que l'he deixat córrer
 - **advent06**: Senzill, però en l'exemple real hi he tingut problemes per culpa de la capacitat dels `int` que es desbordava, passant-ho a `uint` llestos. (la part 2 extremadament senzilla)
+
+Segon dia:
+
+- **advent07**: Me'l salto perquè necessita el 5 i me'l vaig saltar
+- **advent08**: La primera part només requereix llegir el fitxer caràcter a caràcter però molt senzill i la segona es tracta de pintar el resultat en ASCII.
+
+I plego perquè fins demà no en surten més ..
