@@ -30,6 +30,14 @@ func part1(wide int, tall int, data []int) int {
 
 	var layers [][]int
 
+	// Veient com ho fa l'altra gent puc obtenir les quantitats
+	// de números de cada bloc amb una sola instrucció
+	//
+	// count := make([]map[rune]int, len(data)/(wide*tall))
+	//
+	// Després en tinc prou amb buscar el mapa que te menys zeros i
+	// multiplicar els 1 i 2
+
 	for i := 0; i < len(data); i += layerSize {
 		end := i + layerSize
 		if end > len(data) {
@@ -106,28 +114,24 @@ func part2(wide int, tall int, data []int) {
 		pixels = append(pixels, pixel)
 	}
 
-	// Generate result
-	var result []string
-	for _, values := range pixels {
+	// Paint result
+	for index, values := range pixels {
+		if index%wide == 0 {
+			fmt.Println()
+		}
 		for _, value := range values {
 			if value != 2 {
 				if value == 0 {
-					result = append(result, " ")
+					fmt.Print(" ")
 				} else {
-					result = append(result, "X")
+					fmt.Print("X")
 				}
 				break
 			}
 		}
+
 	}
 
-	// Paint result
-	for index, value := range result {
-		if index%wide == 0 {
-			fmt.Println()
-		}
-		fmt.Print(value)
-	}
 	fmt.Println()
 
 }
