@@ -18,3 +18,12 @@ Segon dia:
 - **advent08**: La primera part només requereix llegir el fitxer caràcter a caràcter però molt senzill i la segona es tracta de pintar el resultat en ASCII.
 
 I plego perquè fins demà no en surten més ..
+
+Tercer dia:
+
+Aquest cap de setmana no tinc gaire temps però almenys n'he pogut fer un
+
+- **advent09** Es basa en els que he anat deixant o sigui que me'l salto
+- **advent10**: Interessant, quan he pensat en fer servir angles tot ha anat rodat. Ja que hi era l'he implementat amb testos unitaris
+
+Ara si que ja vaig molt retrassat ...
