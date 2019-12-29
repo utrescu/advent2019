@@ -37,3 +37,10 @@ Com l'altre dia només n'he pogut fer un ...
 
 - **advent13**: Me'l salto pel mateix
 - **advent14**: Se m'ha entrevessat una mica perquè ho volia fer amb un mapa auxiliar i després fallaven els casos d'acumulats. Al final he optat per fer-los un a un i ha funcionat. La segona part l'he fet per força bruta i funciona però he trobat una forma MOLT més eficient de fer-ho entre les solucions dels altres
+
+## Cinquè dia
+
+- **advent15**: Per no trencar la tradició me'l salto
+- **advent16**: La primera part és molt fàcil però la segona per força bruta no acaba mai ... Les pistes m'han portat a una solució començant pel darrera.
+- **advent17**: Me'l salto
+- **advent18**: ...
